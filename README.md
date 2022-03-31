@@ -48,6 +48,12 @@ Some parameters, such as baud, buffer size, etc, can be modified in the file `Us
 
 Class `SendMsg` is defined to pack the message and send it to stm32 through serial. 
 
+`serial` in python can be installed by the following command in the terminal: 
+
+``` sh
+pip3 install pyserial
+```
+
 ## How to use it
 
 Use the method `send(self, msg_type : bytes, data : list)` 
